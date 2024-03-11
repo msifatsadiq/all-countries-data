@@ -1,12 +1,12 @@
 import './App.css'
+import Countries from './components/countries/Countries'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
 
-      <h1>Vite + React</h1>
+      <h1>React all countries</h1>
+      <Countries></Countries>
 
     </>
   )
